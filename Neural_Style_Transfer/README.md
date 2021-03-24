@@ -2,7 +2,7 @@
 
 
 <div align="center">
-    <img src="https://firebasestorage.googleapis.com/v0/b/merge-my-pdf.appspot.com/o/neural-style-transfer.png?alt=media&token=cd8da818-5ef9-4c00-86d9-affc541c37c9">
+    <img src="https://firebasestorage.googleapis.com/v0/b/merge-my-pdf.appspot.com/o/neural-style-transfer.png?alt=media&token=8b15e0d1-46af-4040-8d16-a0043b95d5e8">
 </div>
 
 Followed Official Tutorial from Tensorflow: [Link](https://www.tensorflow.org/tutorials/generative/style_transfer)
