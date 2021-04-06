@@ -30,14 +30,12 @@ The original Paper: [Vasvani, A. et al. Attention is all you need.](https://arxi
     - Uses `tf.data.Dataset`
 - Create Positional Encoding.
 
-$$pos(even) = \sin(pos/10000^{2i/d_{model}})$$
-
-$$pos(odd) = \cos(pos/10000^{2i/d_{model}}$$
+<img src="https://latex.codecogs.com/gif.latex?O_t=pos(even) = \sin(pos/10000^{2i/d_{model}})" /> 
+<img src="https://latex.codecogs.com/gif.latex?O_t=pos(odd) = \cos(pos/10000^{2i/d_{model}}" /> 
 
 - Create Masks and Look Ahead Masks.
 - Scaled Dot Product Attention.
-
-$$Attention(Q, K, V) = softmax_{k}\dfrac{QK}{\sqrt{d_k}} V$$
+<img src="https://latex.codecogs.com/gif.latex?O_t=Attention(Q, K, V) = softmax_{k}\dfrac{QK}{\sqrt{d_k}} V" /> 
 
 - Using Multi-Head Attention.
 - Create Encoder Layer.
@@ -64,7 +62,8 @@ $$Attention(Q, K, V) = softmax_{k}\dfrac{QK}{\sqrt{d_k}} V$$
     - Feed Forward.
 - Optimizer.
     - Custom LR Scheduler with Adam Optimizer.
-$$l_{rate} = d_{model}^{-0.5} \times min(\text{step_num}^{-0.5}, \text{step_num} \times \text{warmup_steps}^{-1.5})$$
+<img src="https://latex.codecogs.com/gif.latex?O_t=l_{rate} = d_{model}^{-0.5} \times min(\text{step_num}^{-0.5}, \text{step_num} \times \text{warmup_steps}^{-1.5})" /> 
+
 Ref. [Paper](https://arxiv.org/pdf/1706.03762.pdf)
 
 - Loss & Metrics
